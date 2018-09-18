@@ -1,0 +1,39 @@
+{
+  "name": "koa-scaffold",
+  "version": "1.0.0",
+  "description": "Koa2 web api service scaffold powered by nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjr3ady/koa-scaffold.git"
+  },
+  "keywords": [
+    "Koa2",
+    "scaffold"
+  ],
+  "author": "github.com/bjr3ady",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bjr3ady/koa-scaffold/issues"
+  },
+  "homepage": "https://github.com/bjr3ady/koa-scaffold#readme",
+  "dependencies": {
+    "async-busboy": "^0.6.2",
+    "axios": "^0.17.1",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2",
+    "koa-websocket": "^4.1.0",
+    "lodash": "^4.17.4",
+    "log4js": "^2.4.1",
+    "mongoose": "^5.0.0-rc0",
+    "qrcode": "^1.2.0",
+    "qs": "^6.5.1",
+    "uuid": "^3.1.0"
+  }
+}

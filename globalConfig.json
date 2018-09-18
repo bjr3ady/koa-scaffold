@@ -1,0 +1,11 @@
+{
+    "APP_NAME": "PlatformServer",
+    "API_DOMAIN": "http://localhost:3002",
+    "PORT": 3002,
+    "DB_CONN": "mongodb://db-link/db-name?authSource=admin",
+    "USER_TOKEN_EXPIRE": 1296000000,
+    "USE_AUTH": true,
+    "USE_HTTPS": false,
+    "SMS_SEND_API": "",
+    "ALLOW_SMS_FEEDBACK": false
+  }
